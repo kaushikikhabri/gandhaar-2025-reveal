@@ -154,7 +154,7 @@ figure {
 
 /* Header for the day */
 figure header {
-    width: 128px;
+    width: 100%;
     height: 27px;
     position: absolute;
     top: -1px;
@@ -204,7 +204,8 @@ figure section {
 @media (max-width: 700px) {
     h1 {
         top: 20%;
-        font-size: 16vw;
+        font-size: 17vw;
+        margin: 0;
     }
 
     .button {
@@ -217,6 +218,20 @@ figure section {
     .calendar-container {
         /* flex-direction: column; 
         align-items: center; */
+    }
+
+    figure {
+        margin: 20px 20px;
+        width: 100px;
+        height: 86.7px;
+    }
+
+    figure section {
+    width: 100px;
+    height: 86.7px;
+    font: 350 85px/65px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-family: "Galada", cursive;
+    font-size: 2rem;
     }
 
 }
